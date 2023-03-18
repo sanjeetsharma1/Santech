@@ -1,52 +1,53 @@
 header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px;
-	color: #3F497F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: #3F497F;
 }
 
 header h1 {
-	margin: 0;
-	font-weight: bold;
+  margin: 0;
+  font-weight: bold;
 }
 
 nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 nav li {
-	margin-left: 20px;
-	font-weight: bold;
-	margin-right: 50px;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-right: 50px;
 }
 
 nav a {
-	color: #3F497F;
-	text-decoration: none;
-	font-size: 18px;
-	padding: 10px;
-	border-radius: 5px;
-	transition: background-color 0.3s ease;
+  color: #3F497F;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-	background-color: #ECF2FF;
-	color: #DF2E38;
+  background-color: #ECF2FF;
+  color: #DF2E38;
 }
+
 .image-container {
-	position: relative;
-	height: 500px;
+  position: relative;
+  height: 500px;
 }
 
 img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .text-box {
@@ -61,37 +62,42 @@ img {
 }
 
 .text-box h2 {
-	margin: 0;
-	font-size: 40px;
-	color: #3F497F;
-	text-align: left;
+  margin: 0;
+  font-size: 40px;
+  color: #3F497F;
+  text-align: left;
 }
 
 .text-box p {
-	margin: 10px 0 0 0;
-	font-size: 28	px;
-	text-align: left;
+  margin: 10px 0 0 0;
+  font-size: 28 px;
+  text-align: left;
 }
-.container-fluid{
-	padding-top: 200px;
+
+.container-fluid {
+  padding-top: 200px;
 }
-.colored-container{
-	background-color: #3F497F;
-	padding-left: 20px;
+
+.colored-container {
+  background-color: #3F497F;
+  padding-left: 20px;
   padding-right: 20px;
-	padding-bottom: 100px;
+  padding-bottom: 100px;
 }
-h3{
-	text-align: center;
-	color: white;
-	font-size: 50px;
+
+h3 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
 }
-.Our-Services p{
-	font-size: 20px;
-	color: white;
+
+.Our-Services p {
+  font-size: 20px;
+  color: white;
 }
-.Web-box{
-	position: absolute;
+
+.Web-box {
+  position: absolute;
   bottom: -890px;
   right: 0;
   left: 30%;
@@ -99,43 +105,46 @@ h3{
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   width: 400px;
-
 }
-.app-box{
-	position: absolute;
-	bottom: -890px;
-	right: 0;
-	left: 60%;
-	transform: translateX(-70%);
-	background-color: rgba(255, 255, 255, 0.8);
+
+.app-box {
+  position: absolute;
+  bottom: -890px;
+  right: 0;
+  left: 60%;
+  transform: translateX(-70%);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   width: 400px;
-
 }
-.copy-box{
-	position: absolute;
-	bottom: -940px;
-	right: 0;
-	left: 90%;
-	transform: translateX(-70%);
-	background-color: rgba(255, 255, 255, 0.8);
+
+.copy-box {
+  position: absolute;
+  bottom: -940px;
+  right: 0;
+  left: 90%;
+  transform: translateX(-70%);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   width: 400px;
+}
 
+.container-third {
+  padding-top: 300px;
 }
-.container-third{
-	padding-top: 300px;
-}
-.color-container{
-	background-color: #0E8388;
-	padding-left: 20px;
+
+.color-container {
+  background-color: #0E8388;
+  padding-left: 20px;
   padding-right: 20px;
-	padding-bottom: 50px;
+  padding-bottom: 50px;
 }
-.Choose-Us p{
-	font-size: 20px;
-	color: white;
+
+.Choose-Us p {
+  font-size: 20px;
+  color: white;
 }
+
 #contact {
   background-color: #3F497F;
   padding: 50px 0;
@@ -144,7 +153,7 @@ h3{
 #contact h2 {
   margin-top: 0;
   text-align: center;
-	color: white;
+  color: white;
 }
 
 #contact form {
@@ -160,7 +169,7 @@ h3{
   flex-basis: 100%;
   margin-bottom: 10px;
   font-weight: bold;
-	color: white;
+  color: white;
 }
 
 #contact input, #contact textarea {
@@ -182,10 +191,22 @@ h3{
 #contact button[type="submit"]:hover {
   background-color: #3e8e41;
 }
-#footer{
-	padding-bottom: 50px;
-	padding-top: 50px;
+.container-last {
+    text-align: center;
+    padding: 7% 15%;
+  }
+
+
+.social-icon {
+  margin: 20px 10px;
 }
-.container-last{
-	text-align: center;
-}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
